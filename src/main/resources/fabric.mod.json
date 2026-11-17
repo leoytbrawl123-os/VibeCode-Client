@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "vibecode",
+  "version": "${version}",
+  "name": "VibeCode Client",
+  "description": "A lightweight client-side interface foundation.",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.vibecode.client.VibeCodeClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
